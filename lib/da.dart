@@ -261,7 +261,7 @@ class _DaPageState extends State<DaPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(12.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.blueAccent.withOpacity(0.3),
+            color: Colors.blueAccent.withValues(alpha: 0.3),
             blurRadius: 10.0,
             offset: Offset(4, 4),
           ),
@@ -288,7 +288,7 @@ class _DaPageState extends State<DaPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(12.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue[50]!.withOpacity(0.5),
+            color: Colors.blue[50]!.withValues(alpha: 0.5),
             blurRadius: 8.0,
             offset: Offset(2, 2),
           ),
@@ -318,7 +318,7 @@ class _DaPageState extends State<DaPage> with TickerProviderStateMixin {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.4),
+            color: Colors.grey.withValues(alpha: 0.4),
             blurRadius: 8.0,
             offset: Offset(2, 2),
           ),
@@ -360,7 +360,7 @@ class _DaPageState extends State<DaPage> with TickerProviderStateMixin {
         color: color,
         boxShadow: [
           BoxShadow(
-            color: color?.withOpacity(0.5) ?? Colors.transparent,
+            color: color?.withValues(alpha: 0.5) ?? Colors.transparent,
             spreadRadius: 5,
             blurRadius: 7,
           ),
