@@ -1,0 +1,16 @@
+{
+  "stage": 1,
+  "optional": [
+    "es7.functionBind",
+    "es7.asyncFunctions",
+    "asyncToGenerator"
+  ],
+  "blacklist": [
+    "es6.blockScoping",
+    "es6.constants",
+    "es6.forOf",
+    "es6.tailCall",
+    "es6.classes",
+    "regenerator" 
+  ]
+}
