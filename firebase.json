@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "itax-login",
+          "appId": "1:695929597014:android:5d4cfd7a4f9aedd3665ff7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "itax-login",
+          "configurations": {
+            "android": "1:695929597014:android:5d4cfd7a4f9aedd3665ff7",
+            "ios": "1:695929597014:ios:f4de12685f1a90ce665ff7",
+            "macos": "1:695929597014:ios:f4de12685f1a90ce665ff7",
+            "web": "1:695929597014:web:0f7958f07356d30b665ff7",
+            "windows": "1:695929597014:web:18fdb7c8698edf38665ff7"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
